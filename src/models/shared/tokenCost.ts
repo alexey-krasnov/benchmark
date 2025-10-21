@@ -21,6 +21,10 @@ export const TOKEN_COST = {
     input: 0.1,
     output: 0.4,
   },
+  'azure-gpt-5': {
+    input: 1.25,
+    output: 10,
+  },
   'azure-o1': {
     input: 15,
     output: 60,
@@ -65,6 +69,14 @@ export const TOKEN_COST = {
     input: 0.1,
     output: 0.4,
   },
+  'gemini-2.0-flash': {
+    input: 0.1,
+    output: 0.4,
+  },
+  'gemini-2.5-flash': {
+    input: 0.3,
+    output: 2.5,
+  },
   'gemini-2.5-pro-exp-03-25': {
     input: 1.25,
     output: 10,
@@ -101,7 +113,10 @@ export const TOKEN_COST = {
     input: 0.1,
     output: 0.4,
   },
-
+  'gpt-5': {
+    input: 1.25,
+    output: 10,
+  },
   o1: {
     input: 15,
     output: 60,

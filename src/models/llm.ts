@@ -117,6 +117,7 @@ export class LLMProvider extends ModelProvider {
     const { text, usage: ocrUsage } = await generateText({
       model: modelProvider(this.model),
       messages,
+      temperature: 1,
     });
     const end = performance.now();
 
@@ -174,7 +175,7 @@ export class LLMProvider extends ModelProvider {
         model: modelProvider(this.model),
         messages,
         schema: zodSchema,
-        temperature: 0,
+        temperature: 1,
       });
       json = object;
       extractionUsage = usage;
@@ -270,7 +271,7 @@ export class LLMProvider extends ModelProvider {
       model: modelProvider(this.model),
       messages,
       schema: zodSchema,
-      temperature: 0,
+      temperature: 1,
     });
     const end = performance.now();
 

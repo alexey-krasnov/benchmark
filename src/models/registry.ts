@@ -24,6 +24,7 @@ export const OPENAI_MODELS = [
   'gpt-4.1',
   'gpt-4.1-mini',
   'gpt-4.1-nano',
+  'gpt-5',
 ];
 export const AZURE_OPENAI_MODELS = [
   'azure-gpt-4o-mini',
@@ -34,6 +35,7 @@ export const AZURE_OPENAI_MODELS = [
   'azure-gpt-4.1',
   'azure-gpt-4.1-mini',
   'azure-gpt-4.1-nano',
+  'azure-gpt-5',
 ];
 export const ANTHROPIC_MODELS = [
   'claude-3-5-sonnet-20241022',
@@ -46,9 +48,11 @@ export const GOOGLE_GENERATIVE_AI_MODELS = [
   'gemini-1.5-pro',
   'gemini-1.5-flash',
   'gemini-2.0-flash-001',
+  'gemini-2.0-flash',
   'gemini-2.5-pro-exp-03-25',
   'gemini-2.5-pro-preview-03-25',
   'gemini-2.5-flash-preview-05-20',
+  'gemini-2.5-flash',
 ];
 export const OPENROUTER_MODELS = [
   'qwen/qwen2.5-vl-32b-instruct:free',

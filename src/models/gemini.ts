@@ -31,7 +31,7 @@ export class GeminiProvider extends ModelProvider {
 
       const model = this.client.getGenerativeModel({
         model: this.model,
-        generationConfig: { temperature: 0 },
+        generationConfig: { temperature: 1 },
       });
 
       // read image and convert to base64
@@ -83,7 +83,7 @@ export class GeminiProvider extends ModelProvider {
     const model = this.client.getGenerativeModel({
       model: this.model,
       generationConfig: {
-        temperature: 0,
+        temperature: 1,
         responseMimeType: 'application/json',
         responseSchema: filteredSchema,
       },
@@ -129,7 +129,7 @@ export class GeminiProvider extends ModelProvider {
     const model = this.client.getGenerativeModel({
       model: this.model,
       generationConfig: {
-        temperature: 0,
+        temperature: 1,
         responseMimeType: 'application/json',
         responseSchema: filteredSchema,
       },
